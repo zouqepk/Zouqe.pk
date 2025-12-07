@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Zouqé — Luxury Chocolates</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: serif;
+      background-color: #f8f5f2;
+      color: #3b2f2f;
+    }
+    header {
+      background: #d7c1b3;
+      padding: 40px 20px;
+      text-align: center;
+      font-size: 42px;
+      letter-spacing: 2px;
+    }
+    .section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin-top: 20px;
+    }
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    .card img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #d7c1b3;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>Zouqé</header>
+
+  <div class="section">
+    <h2>Luxury Chocolate Collection</h2>
+    <p>Handcrafted blends of South Asian warmth and Parisian elegance.</p>
+
+    <div class="product-grid">
+      <div class="card">
+        <img src="https://via.placeholder.com/300x200" alt="Zouqé Pistachio Kunafa Brick" />
+        <h3>Pistachio Kunafa Brick</h3>
+        <p>Crunchy layers of kunafa folded into a rich pistachio base.</p>
+      </div>
+
+      <div class="card">
+        <img src="https://via.placeholder.com/300x200" alt="Zouqé Date Caramel Bar" />
+        <h3>Date Caramel Bar</h3>
+        <p>A soft caramel swirl infused with Medjool dates.</p>
+      </div>
+
+      <div class="card">
+        <img src="https://via.placeholder.com/300x200" alt="Zouqé Cotton Candy Chocolate" />
+        <h3>Cotton Candy Cloud</h3>
+        <p>A playful spin of sweetness wrapped in smooth chocolate.</p>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    © 2025 Zouqé. Crafted with elegance.
+  </footer>
+</body>
+</html>
